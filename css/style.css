@@ -1,0 +1,49 @@
+* {
+	
+}
+body {
+	
+}
+.bg-image {
+	background:url("../img/wholefood.jpg") no-repeat;
+	background-position:center;
+	background-size:cover;
+	padding:6em 0em;
+	text-align:center;
+	text-transform:uppercase;
+	color:white;
+}
+.bg-image .container-fluid h1 {
+	font-size:5.5em;
+}
+.diet {
+	text-align:center;
+	margin:auto;
+}
+.diet img {
+	height:150px;
+	width:150px;
+	border-radius:75px;
+}
+.diet h2, .diet h3 {
+	font-weight:bold;
+}
+.diet section {
+	padding:3em 1em;
+}
+.diet section p {
+	width:65%;
+	margin:auto;
+}
+.video-section p {
+	text-indent:3em;
+}
+@media (min-width: 768px) {
+	.navbar-nav {
+		float:none;
+		display:flex;
+		flex-direction:row;
+		justify-content:center;
+		flex-wrap:wrap;
+	}
+}
